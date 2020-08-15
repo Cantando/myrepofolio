@@ -1,0 +1,21 @@
+#background-home{
+    background-image: url(https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80);
+    background-size: cover;
+    color: rgb(0, 255, 247);
+    padding-bottom: 30rem;
+}
+
+.home-title-backg{
+    margin-top: 2rem;
+    background-color: rgba(0, 0, 0, 0.388);
+}
+.home-title{
+    padding: 3rem;
+    text-align: center;
+    display: block;
+}
+
+.home-media-tag{
+ padding: 3rem 0 0 17rem;
+ 
+}
