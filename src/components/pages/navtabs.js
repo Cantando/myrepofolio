@@ -13,7 +13,7 @@ function NavTabs() {
     <Router>
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <Link to="/Home" className={location.pathname === "/Home" ? "nav-link active" : "nav-link"}>
+        <Link to="/home" className={location.pathname === "/home" ? "nav-link active" : "nav-link"}>
           Home
         </Link>
       </li>
