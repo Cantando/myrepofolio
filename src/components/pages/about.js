@@ -10,7 +10,7 @@ function About() {
             <div className="container">
                 <div className="row">
                     <div className="col-sm-12">
-                        <h1>This is me!</h1>
+                        <h1>This is me!!</h1>
                     </div>
                 </div>
                 <div className="row">
