@@ -13,14 +13,14 @@ function NavTabs() {
     <Router>
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <Link to="/myrepofolio/home" className={location.pathname === "/home" ? "nav-link active" : "nav-link"}>
+        <Link to="/myrepofolio/home" className={location.pathname === "/myrepofolio/home" ? "nav-link active" : "nav-link"}>
           Home
         </Link>
       </li>
       <li className="nav-item">
         <Link
           to="/myrepofolio/about"
-          className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
+          className={location.pathname === "/myrepofolio/about" ? "nav-link active" : "nav-link"}
         >
           About Me
         </Link>
@@ -28,7 +28,7 @@ function NavTabs() {
       <li className="nav-item">
         <Link
           to="/myrepofolio/contact"
-          className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
+          className={location.pathname === "/myrepofolio/contact" ? "nav-link active" : "nav-link"}
         >
           Contact
         </Link>
@@ -36,7 +36,7 @@ function NavTabs() {
       <li className="nav-item">
         <Link
           to="/myrepofolio/Technology"
-          className={location.pathname === "/Technology" ? "nav-link active" : "nav-link"}
+          className={location.pathname === "/myrepofolio/Technology" ? "nav-link active" : "nav-link"}
         >
           Technologies
         </Link>
@@ -44,7 +44,7 @@ function NavTabs() {
       <li className="nav-item">
         <Link
           to="/myrepofolio/Projects"
-          className={location.pathname === "/Projects" ? "nav-link active" : "nav-link"}
+          className={location.pathname === "/myrepofolio/Projects" ? "nav-link active" : "nav-link"}
         >
          Projects
         </Link>
@@ -52,7 +52,7 @@ function NavTabs() {
       <li className="nav-item">
         <Link
           to="/myrepofolio/Resume"
-          className={location.pathname === "/Resume" ? "nav-link active" : "nav-link"}
+          className={location.pathname === "/myrepofolio/Resume" ? "nav-link active" : "nav-link"}
         >
          Resume
         </Link>
