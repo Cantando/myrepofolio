@@ -13,13 +13,13 @@ function NavTabs() {
     <Router>
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <Link to="/home" className={location.pathname === "/home" ? "nav-link active" : "nav-link"}>
+        <Link to="/myrepofolio/home" className={location.pathname === "/home" ? "nav-link active" : "nav-link"}>
           Home
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/about"
+          to="/myrepofolio/about"
           className={location.pathname === "/about" ? "nav-link active" : "nav-link"}
         >
           About Me
@@ -27,7 +27,7 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/contact"
+          to="/myrepofolio/contact"
           className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}
         >
           Contact
@@ -35,7 +35,7 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/Technology"
+          to="/myrepofolio/Technology"
           className={location.pathname === "/Technology" ? "nav-link active" : "nav-link"}
         >
           Technologies
@@ -43,7 +43,7 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/Projects"
+          to="/myrepofolio/Projects"
           className={location.pathname === "/Projects" ? "nav-link active" : "nav-link"}
         >
          Projects
@@ -51,7 +51,7 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/Resume"
+          to="/myrepofolio/Resume"
           className={location.pathname === "/Resume" ? "nav-link active" : "nav-link"}
         >
          Resume
