@@ -18,7 +18,7 @@ function App() {
       <NavTabs />
         <Switch>
        
-        <Route exact path="/myrepofolio/home" component={Home} />
+        <Route exact path="/myrepofolio" component={Home} />
         <Route exact path="/myrepofolio/about" component={About} />
         <Route exact path="/myrepofolio/projects" component={Projects} />
         <Route exact path="/myrepofolio/contact" component={Contact} />

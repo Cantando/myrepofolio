@@ -13,7 +13,7 @@ function NavTabs() {
     <Router>
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <Link to="/myrepofolio/home" className={location.pathname === "/myrepofolio/home" ? "nav-link active" : "nav-link"}>
+        <Link to="/myrepofolio" className={location.pathname === "/myrepofolio" ? "nav-link active" : "nav-link"}>
           Home
         </Link>
       </li>
