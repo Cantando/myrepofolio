@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/myrepofolio/static/css/main.c542b1f0.chunk.css",
-    "main.js": "/myrepofolio/static/js/main.f4472427.chunk.js",
-    "main.js.map": "/myrepofolio/static/js/main.f4472427.chunk.js.map",
+    "main.js": "/myrepofolio/static/js/main.27ea1171.chunk.js",
+    "main.js.map": "/myrepofolio/static/js/main.27ea1171.chunk.js.map",
     "runtime-main.js": "/myrepofolio/static/js/runtime-main.366ef093.js",
     "runtime-main.js.map": "/myrepofolio/static/js/runtime-main.366ef093.js.map",
     "static/js/2.0a906937.chunk.js": "/myrepofolio/static/js/2.0a906937.chunk.js",
     "static/js/2.0a906937.chunk.js.map": "/myrepofolio/static/js/2.0a906937.chunk.js.map",
     "index.html": "/myrepofolio/index.html",
-    "precache-manifest.eb44b49e899bd2d09b6c96d9eac88411.js": "/myrepofolio/precache-manifest.eb44b49e899bd2d09b6c96d9eac88411.js",
+    "precache-manifest.c47fa4168dcbd2d587e96cd010a13f1a.js": "/myrepofolio/precache-manifest.c47fa4168dcbd2d587e96cd010a13f1a.js",
     "service-worker.js": "/myrepofolio/service-worker.js",
     "static/css/main.c542b1f0.chunk.css.map": "/myrepofolio/static/css/main.c542b1f0.chunk.css.map",
     "static/js/2.0a906937.chunk.js.LICENSE.txt": "/myrepofolio/static/js/2.0a906937.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.366ef093.js",
     "static/js/2.0a906937.chunk.js",
     "static/css/main.c542b1f0.chunk.css",
-    "static/js/main.f4472427.chunk.js"
+    "static/js/main.27ea1171.chunk.js"
   ]
 }
