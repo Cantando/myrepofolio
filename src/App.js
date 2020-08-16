@@ -18,12 +18,12 @@ function App() {
       <NavTabs />
         <Switch>
        
-        <Route exact path="/home" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/technology" component={Technology} />
-        <Route exact path="/resume" component={Resume} />
+        <Route exact path="/myrepofolio/home" component={Home} />
+        <Route exact path="/myrepofolio/about" component={About} />
+        <Route exact path="/myrepofolio/projects" component={Projects} />
+        <Route exact path="/myrepofolio/contact" component={Contact} />
+        <Route exact path="/myrepofolio/technology" component={Technology} />
+        <Route exact path="/myrepofolio/resume" component={Resume} />
         </Switch>
       </div>
     </Router>

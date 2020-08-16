@@ -35,24 +35,24 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/myrepofolio/Technology"
-          className={location.pathname === "/myrepofolio/Technology" ? "nav-link active" : "nav-link"}
+          to="/myrepofolio/technology"
+          className={location.pathname === "/myrepofolio/technology" ? "nav-link active" : "nav-link"}
         >
           Technologies
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/myrepofolio/Projects"
-          className={location.pathname === "/myrepofolio/Projects" ? "nav-link active" : "nav-link"}
+          to="/myrepofolio/projects"
+          className={location.pathname === "/myrepofolio/projects" ? "nav-link active" : "nav-link"}
         >
          Projects
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/myrepofolio/Resume"
-          className={location.pathname === "/myrepofolio/Resume" ? "nav-link active" : "nav-link"}
+          to="/myrepofolio/resume"
+          className={location.pathname === "/myrepofolio/resume" ? "nav-link active" : "nav-link"}
         >
          Resume
         </Link>
