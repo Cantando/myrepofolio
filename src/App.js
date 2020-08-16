@@ -8,7 +8,7 @@ import Projects from "./components/pages/projects";
 import Contact from "./components/pages/contact";
 import Technology from "./components/pages/technology";
 import Resume from "./components/pages/resume";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route} from "react-router-dom";
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
     <Router>
       <div>
       <NavTabs />
-        <Switch>
+      
        
         <Route exact path="/myrepofolio" component={Home} />
         <Route exact path="/myrepofolio/about" component={About} />
@@ -24,7 +24,7 @@ function App() {
         <Route exact path="/myrepofolio/contact" component={Contact} />
         <Route exact path="/myrepofolio/technology" component={Technology} />
         <Route exact path="/myrepofolio/resume" component={Resume} />
-        </Switch>
+
       </div>
     </Router>
   );
