@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ac2ac16e9b27411aa545933cde7bde6f",
+    "revision": "d487df5073cca41f650c08ce2c67e153",
     "url": "/myrepofolio/index.html"
   },
   {
-    "revision": "1e4a264e1ae3f498175b",
+    "revision": "03f1754dbce6a62ce118",
     "url": "/myrepofolio/static/css/main.c542b1f0.chunk.css"
   },
   {
-    "revision": "46c15709758005a98c70",
-    "url": "/myrepofolio/static/js/2.2deba7f5.chunk.js"
+    "revision": "b9e667d6fa269968e282",
+    "url": "/myrepofolio/static/js/2.f7f0a1d4.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/myrepofolio/static/js/2.2deba7f5.chunk.js.LICENSE.txt"
+    "url": "/myrepofolio/static/js/2.f7f0a1d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1e4a264e1ae3f498175b",
-    "url": "/myrepofolio/static/js/main.ca30d2fd.chunk.js"
+    "revision": "03f1754dbce6a62ce118",
+    "url": "/myrepofolio/static/js/main.572d1bba.chunk.js"
   },
   {
-    "revision": "298373931319d108fb00",
-    "url": "/myrepofolio/static/js/runtime-main.366ef093.js"
+    "revision": "c597cabf604c2a87bd71",
+    "url": "/myrepofolio/static/js/runtime-main.4427ee2f.js"
   },
   {
     "revision": "48b1343ca77c025d966b0eb4a2dec3ce",

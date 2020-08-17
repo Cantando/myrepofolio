@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/myrepofolio/static/css/main.c542b1f0.chunk.css",
-    "main.js": "/myrepofolio/static/js/main.ca30d2fd.chunk.js",
-    "main.js.map": "/myrepofolio/static/js/main.ca30d2fd.chunk.js.map",
-    "runtime-main.js": "/myrepofolio/static/js/runtime-main.366ef093.js",
-    "runtime-main.js.map": "/myrepofolio/static/js/runtime-main.366ef093.js.map",
-    "static/js/2.2deba7f5.chunk.js": "/myrepofolio/static/js/2.2deba7f5.chunk.js",
-    "static/js/2.2deba7f5.chunk.js.map": "/myrepofolio/static/js/2.2deba7f5.chunk.js.map",
+    "main.js": "/myrepofolio/static/js/main.572d1bba.chunk.js",
+    "main.js.map": "/myrepofolio/static/js/main.572d1bba.chunk.js.map",
+    "runtime-main.js": "/myrepofolio/static/js/runtime-main.4427ee2f.js",
+    "runtime-main.js.map": "/myrepofolio/static/js/runtime-main.4427ee2f.js.map",
+    "static/js/2.f7f0a1d4.chunk.js": "/myrepofolio/static/js/2.f7f0a1d4.chunk.js",
+    "static/js/2.f7f0a1d4.chunk.js.map": "/myrepofolio/static/js/2.f7f0a1d4.chunk.js.map",
     "index.html": "/myrepofolio/index.html",
-    "precache-manifest.b631d24a5fda208382317b67a9c6b85a.js": "/myrepofolio/precache-manifest.b631d24a5fda208382317b67a9c6b85a.js",
+    "precache-manifest.6e6577a3504cc42aeb72e215e13d2473.js": "/myrepofolio/precache-manifest.6e6577a3504cc42aeb72e215e13d2473.js",
     "service-worker.js": "/myrepofolio/service-worker.js",
     "static/css/main.c542b1f0.chunk.css.map": "/myrepofolio/static/css/main.c542b1f0.chunk.css.map",
-    "static/js/2.2deba7f5.chunk.js.LICENSE.txt": "/myrepofolio/static/js/2.2deba7f5.chunk.js.LICENSE.txt",
+    "static/js/2.f7f0a1d4.chunk.js.LICENSE.txt": "/myrepofolio/static/js/2.f7f0a1d4.chunk.js.LICENSE.txt",
     "static/media/Generatepassword.png": "/myrepofolio/static/media/Generatepassword.48b1343c.png",
     "static/media/Myrna_Cantando_Resume.pdf": "/myrepofolio/static/media/Myrna_Cantando_Resume.003281c9.pdf",
     "static/media/Notetaker.png": "/myrepofolio/static/media/Notetaker.418ef76a.png",
@@ -22,9 +22,9 @@
     "static/media/project1.png": "/myrepofolio/static/media/project1.a284759d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.366ef093.js",
-    "static/js/2.2deba7f5.chunk.js",
+    "static/js/runtime-main.4427ee2f.js",
+    "static/js/2.f7f0a1d4.chunk.js",
     "static/css/main.c542b1f0.chunk.css",
-    "static/js/main.ca30d2fd.chunk.js"
+    "static/js/main.572d1bba.chunk.js"
   ]
 }
