@@ -8,22 +8,24 @@ import Projects from "./components/pages/projects";
 import Contact from "./components/pages/contact";
 import Technology from "./components/pages/technology";
 import Resume from "./components/pages/resume";
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
 function App() {
   return (
     <Router>
       <div>
-      <NavTabs />
-      
-       
-        <Route exact path="/myrepofolio" component={Home} />
-        <Route exact path="/myrepofolio/about" component={About} />
-        <Route exact path="/myrepofolio/projects" component={Projects} />
-        <Route exact path="/myrepofolio/contact" component={Contact} />
-        <Route exact path="/myrepofolio/technology" component={Technology} />
-        <Route exact path="/myrepofolio/resume" component={Resume} />
+
+        <Switch>
+
+          <Route exact path="/myrepofolio" component={Home} />
+          <Route path="/myrepofolio/about" component={About} />
+          <Route path="/myrepofolio/projects" component={Projects} />
+          <Route path="/myrepofolio/contact" component={Contact} />
+          <Route path="/myrepofolio/technology" component={Technology} />
+          <Route path="/myrepofolio/resume" component={Resume} />
+        </Switch>
+
 
       </div>
     </Router>

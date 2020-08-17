@@ -1,65 +1,64 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
-
-
-import { Link, useLocation } from "react-router-dom";
+import { Link} from "react-router-dom";
 // import NavTabs from "NavTabs.js"
 
 function NavTabs() {
  
-  const location = useLocation();
+
 
   return (
-    <Router>
+<nav className="navbar">
+
+
     <ul className="nav nav-tabs">
       <li className="nav-item">
-        <Link to="/myrepofolio" className={location.pathname === "/myrepofolio" ? "nav-link active" : "nav-link"}>
-          Home
+        <Link to="/myrepofolio" className="nav-link">
+          <span>Home</span>
         </Link>
       </li>
       <li className="nav-item">
         <Link
           to="/myrepofolio/about"
-          className={location.pathname === "/myrepofolio/about" ? "nav-link active" : "nav-link"}
+          className="nav-link"
         >
-          About Me
+          <span>About Me</span>
         </Link>
       </li>
       <li className="nav-item">
         <Link
           to="/myrepofolio/contact"
-          className={location.pathname === "/myrepofolio/contact" ? "nav-link active" : "nav-link"}
+          className="nav-link"
         >
-          Contact
+          <span>Contact </span>
         </Link>
       </li>
       <li className="nav-item">
         <Link
           to="/myrepofolio/technology"
-          className={location.pathname === "/myrepofolio/technology" ? "nav-link active" : "nav-link"}
+          className="nav-link"
         >
-          Technologies
+          <span> Technologies</span>
         </Link>
       </li>
       <li className="nav-item">
         <Link
           to="/myrepofolio/projects"
-          className={location.pathname === "/myrepofolio/projects" ? "nav-link active" : "nav-link"}
+          className="nav-link"
         >
-         Projects
+         <span> Projects</span>
         </Link>
       </li>
       <li className="nav-item">
         <Link
           to="/myrepofolio/resume"
-          className={location.pathname === "/myrepofolio/resume" ? "nav-link active" : "nav-link"}
+          className="nav-link"
         >
-         Resume
+         <span> Resume </span>
         </Link>
       </li>
       
      </ul>
-     </Router>
+     </nav>
   );
 }
 

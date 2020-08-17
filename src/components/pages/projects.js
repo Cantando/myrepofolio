@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import project1 from "../../images/project1.png"
-import project2 from "../../images/Project2.png"
-import quizgame from "../../images/Quizgame.png"
-import weatherapp from "../../images/Weatherapp.png"
-import notetaker from "../../images/Notetaker.png"
-import generatepassword from "../../images/Generatepassword.png"
+import NavTabs from "./navtabs";
+import project1 from "../../images/project1.png";
+import project2 from "../../images/Project2.png";
+import quizgame from "../../images/Quizgame.png";
+import weatherapp from "../../images/Weatherapp.png";
+import notetaker from "../../images/Notetaker.png";
+import generatepassword from "../../images/Generatepassword.png";
 
 
 
@@ -14,6 +15,7 @@ class Projects extends Component {
     render() {
         return (
             <div className="container-fluid">
+                    <NavTabs/>
                 <div><h1>Projects</h1></div>
 
                 <div className="row">

@@ -1,10 +1,14 @@
 import React from 'react';
+import NavTabs from "./navtabs"
 import "./home.css";
 
 
 function Home() {
   return (
+    <>
+    <NavTabs/>
     <div id="background-home" className="container-fluid">
+      
       <div className="row">
         <div className="col-sm-3"> </div>
         <div className="col-sm-6">
@@ -30,7 +34,7 @@ function Home() {
       
     </div>
 
-
+    </>
   );
 }
 

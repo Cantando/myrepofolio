@@ -1,4 +1,5 @@
 import React from "react";
+import NavTabs from "./navtabs";
 import Me from "../../images/me.JPG";
 import "./about.css";
 
@@ -7,7 +8,9 @@ function About() {
 
     return (
         <>
+            <NavTabs/>
             <div className="container">
+            
                 <div className="row">
                     <div className="col-sm-12">
                         <h1>This is me!!</h1>

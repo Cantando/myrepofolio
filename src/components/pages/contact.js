@@ -1,10 +1,14 @@
 import React from "react";
+import NavTabs from "./navtabs";
 import "./contact.css";
 
 
 function Contact() {
     return (
+        <>
+        <NavTabs/>
         <div className="contact">
+          
             <div className="row">
                 <div className="col-sm-12">
                     <h1>Contact Me</h1>
@@ -30,6 +34,7 @@ function Contact() {
 
 
         </div>
+        </>
     );
 }
 export default Contact;  
